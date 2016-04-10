@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 @font-face {
   font-family: 'Fira Sans';
   font-style: normal;
@@ -260,6 +266,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2; }
 
 p {
+  font-family: "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
   margin: 0 0 20px 0; }
 
 em {
