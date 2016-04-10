@@ -33,3 +33,5 @@ Temporary Items
 # General CodeKit files to ignore
 config.codekit
 /min
+
+index.html
