@@ -33,10 +33,18 @@
       h1 {
         color: $hero-color;
         font-size: 1.6em;
-        margin-bottom: 0.5em;
+        line-height: 1.4em;
+        margin: 0 auto 0.5em auto;
+        letter-spacing: 0.05em;
+        font-family: Delm-thin;
+        font-weight: normal;
 
         @include media($large-screen) {
-          font-size: 1.8em;
+          font-size: 2.2em;
+          max-width: 70%;
+          line-height: 1.2em;
+          font-family: Delm-thin;
+          font-weight: normal;
         }
       }
 
@@ -44,10 +52,13 @@
         color: $hero-color;
         line-height: 1.4em;
         margin: 0 auto 3em auto;
+        font-family: Lato;
+        font-weight: 300;
+        letter-spacing: 0.05rem;
 
         @include media($large-screen) {
           font-size: 1.1em;
-          max-width: 40%;
+          max-width: 60%;
         }
       }
     }

@@ -1,0 +1,15 @@
+extends ./assets/jadefiles/docwrapper.jade
+
+//- Override any config settings by appending to the config block
+append ./assets/jadefiles/config.jade
+	- var PageTitle = 'Cre8 | Terms and Contions 2016'
+	- var MetaDesc = 'Terms and conditons for both on and off line purpose. Our terms are set out to line out what you can expect form Cre8 and what Cre8 should expect from you the user or customer.'
+	- var jQuery = true
+
+block content
+	//- Variable content blocks
+	include ./assets/jadefiles/navigation.jade
+	include ./assets/jadefiles/section-home-parallax.jade
+	include ./assets/jadefiles/section-terms-info.jade
+	include ./assets/jadefiles/footer.jade
+	

@@ -7,7 +7,7 @@
 $disable-warnings: false !default;
 
 @mixin -neat-warn($message) {
-  @if $disable-warnings == false {
+  @if $disable-warnings == true {
     @warn "#{$message}";
   }
 }
