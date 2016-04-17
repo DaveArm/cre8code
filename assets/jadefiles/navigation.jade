@@ -1,40 +1,46 @@
 header.navigation(role='banner')
   .navigation-wrapper
-    a.logo(href='javascript:void(0)')
-      img(src='https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png', alt='Logo Image')
+    a.logo(href='index.html')
+      img(src='./assets/img/logo/cre8-logo.png', alt='Cre8 Logo')
     a#js-mobile-menu.navigation-menu-button(href='javascript:void(0)') MENU
     nav(role='navigation')
       ul#js-navigation-menu.navigation-menu.show
-        li.nav-link
+        li#js-navigation-more.nav-link.more
           a(href='javascript:void(0)') Products
+          ul.submenu
+            li
+              a(href='javascript:void(0)') Latest Code
+            li.more
+              a(href='javascript:void(0)') HTML Builder
+              ul.submenu
+                li
+                  a(href='javascript:void(0)') HTML Email
+                li
+                  a(href='javascript:void(0)') HTML Website Edition
+            li.more
+              a(href='javascript:void(0)') Components
+              ul.submenu
+                li
+                  a(href='javascript:void(0)') Plugin's
+                li
+                  a(href='javascript:void(0)') Scripts
+                li
+                  a(href='javascript:void(0)') Styles
+            li
+              a(href='javascript:void(0)') APS
+            li
+              a(href='javascript:void(0)') Frmaeworks
+              
+              
         li.nav-link
           a(href='javascript:void(0)') About Us
         li.nav-link
+          a(href='javascript:void(0)') Cre8tive Code
+        li.nav-link
           a(href='javascript:void(0)') Contact
-        li#js-navigation-more.nav-link.more
-          a(href='javascript:void(0)') More
-          ul.submenu
-            li
-              a(href='javascript:void(0)') Submenu Item
-            li
-              a(href='javascript:void(0)') Another Item
-            li.more
-              a(href='javascript:void(0)') Item with submenu
-              ul.submenu
-                li
-                  a(href='javascript:void(0)') Sub-submenu Item
-                li
-                  a(href='javascript:void(0)') Another Item
-            li.more
-              a(href='javascript:void(0)') Another submenu
-              ul.submenu
-                li
-                  a(href='javascript:void(0)') Sub-submenu
-                li
-                  a(href='javascript:void(0)') An Item
-    .navigation-tools
-      .search-bar
-        form(role='search')
-          input(type='search', placeholder='Enter Search')
-          button(type='submit')
-            img(src='https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon.png', alt='Search Icon')
+    //- .navigation-tools
+    //-   .search-bar
+    //-     form(role='search')
+    //-       input(type='search', placeholder='Enter Search')
+    //-       button(type='submit')
+    //-         img(src='https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon.png', alt='Search Icon')

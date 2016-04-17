@@ -8,7 +8,34 @@
   $footer-link-color: transparentize($footer-color, 0.6);
   $footer-disclaimer-color: transparentize($footer-color, 0.6);
 
-  background: $footer-background;
+  background: linear-gradient(229deg, #fe3162, #ff5928, #8b0084, #fe0cf1, #8e35fe, #6d7fef, #799802);
+background-size: 1400% 1400%;
+
+-webkit-animation: background 154s ease infinite;
+-moz-animation: background 154s ease infinite;
+-o-animation: background 154s ease infinite;
+animation: background 154s ease infinite;
+
+@-webkit-keyframes background {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+@-moz-keyframes background {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+@-o-keyframes background {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+@keyframes background {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
   padding: ($base-spacing * 2) $gutter;
   width: 100%;
 
@@ -36,14 +63,16 @@
   }
 
   li {
-    line-height: 1.5em;
+    line-height: 1.8em;
     list-style: none;
     text-align: center;
+    font-family: Lato;
   }
 
   li a {
     color: $footer-link-color;
     text-decoration: none;
+    font-size:0.9em;
 
     &:focus,
     &:hover {
@@ -53,7 +82,7 @@
 
   li h3 {
     color: $footer-color;
-    font-size: 1em;
+    font-size: 1.3em;
     margin-bottom: 0.4em;
   }
 

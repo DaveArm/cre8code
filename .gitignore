@@ -35,3 +35,25 @@ config.codekit
 /min
 
 /index.html
+
+*.eot
+
+*.ttf
+
+assets/css/fonts/Delm-Bold.svg
+
+assets/css/fonts/Delm-Light.svg
+
+assets/css/fonts/Delm-Thin.svg
+
+*.woff
+
+assets/video/video.webm
+
+assets/video/video.ogg
+
+assets/video/video.mp4
+
+assets/video/video.jpg
+
+index.html
