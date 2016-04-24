@@ -63,7 +63,7 @@
     p {
       color: $base-font-color;
       line-height: $base-line-height;
-      margin-bottom: 3em;
+      margin-bottom: 1.5em;
     }
   }
 
@@ -189,4 +189,7 @@ $fec-button-border-radius-default: 1px !default;
   @include pure-button-size(lg);
   @include pure-button($c8pink, $c8pink, 1, 0, 1px solid $c8pink);
   font-family: Delm-bold;
+  margin: 0;
+  line-height:1.2rem;
+  font-size: 1.2rem;
 }

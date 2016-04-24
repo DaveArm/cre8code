@@ -637,10 +637,110 @@ header.navigation {
             font-size: 1.1em;
             max-width: 60%; } }
 
+article.type-system-rounded {
+  margin-top: 2.5rem;
+  font-family: "Nunito", sans-serif;
+  text-align: left; }
+  article.type-system-rounded::after {
+    clear: both;
+    content: "";
+    display: table; }
+  article.type-system-rounded h1,
+  article.type-system-rounded h2,
+  article.type-system-rounded h3,
+  article.type-system-rounded p {
+    margin: 0; }
+  article.type-system-rounded hr {
+    border-bottom: 1px solid #ddd;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    margin: 1.5em 0; }
+  article.type-system-rounded p {
+    color: #333;
+    line-height: 1.5em; }
+  article.type-system-rounded a {
+    color: #477dca;
+    text-decoration: none; }
+  article.type-system-rounded .type {
+    border-bottom: 1px solid;
+    display: inline-block;
+    font-family: "Nunito", sans-serif;
+    font-size: 0.7em;
+    font-weight: 800;
+    margin-bottom: 2em;
+    padding: 0.3em 0;
+    text-align: left;
+    text-transform: uppercase; }
+  article.type-system-rounded h1 {
+    font-family: "Varela Round", sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 0.5em; }
+    @media screen and (min-width: 40em) {
+      article.type-system-rounded h1 {
+        font-size: 2.4em; } }
+  article.type-system-rounded h2 {
+    font-family: "Varela Round", sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin-bottom: 0.9em; }
+    @media screen and (min-width: 40em) {
+      article.type-system-rounded h2 {
+        font-size: 1.4em; } }
+  article.type-system-rounded code {
+    background: #F7F7F7;
+    border-radius: 4.5px;
+    border: 1px solid #E0E0E0;
+    font-family: monaco;
+    font-size: 0.7em;
+    font-style: normal;
+    padding: 0.1em 0.4em;
+    white-space: nowrap; }
+  article.type-system-rounded h3 {
+    font-family: "Varela Round", sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-bottom: 0.4em; }
+  article.type-system-rounded p.date {
+    color: rgba(51, 51, 51, 0.4);
+    font-family: "Nunito", sans-serif;
+    font-size: 0.9em;
+    margin-bottom: 0.3em; }
+  article.type-system-rounded p {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.05em;
+    font-weight: 300;
+    line-height: 1.4em;
+    margin-bottom: 1.5em; }
+    article.type-system-rounded p span {
+      font-family: "Varela Round", sans-serif;
+      font-size: 0.8em;
+      text-transform: uppercase; }
+  article.type-system-rounded a.read-more {
+    display: inline-block;
+    font-family: "Varela Round", sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    margin-left: 0.2em;
+    position: relative;
+    text-transform: uppercase; }
+    article.type-system-rounded a.read-more span {
+      font-size: 1.5em;
+      position: absolute;
+      right: -12px;
+      top: -1px; }
+  article.type-system-rounded hr {
+    width: 3em; }
+  article.type-system-rounded p.author {
+    font-family: "Nunito", sans-serif; }
+
 .da-grid {
   max-width: 1200px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-bottom: 2.5rem; }
   .da-grid::after {
     clear: both;
     content: "";
@@ -755,7 +855,7 @@ header.navigation {
     .side-image .side-image-content p {
       color: #333;
       line-height: 1.5em;
-      margin-bottom: 3em; }
+      margin-bottom: 1.5em; }
 
 .btn-outline {
   font-size: 100%;
@@ -788,7 +888,10 @@ header.navigation {
   -ms-transition: 0.1s linear box-shadow;
   -o-transition: 0.1s linear box-shadow;
   transition: 0.1s linear box-shadow;
-  font-family: Delm-bold; }
+  font-family: Delm-bold;
+  margin: 0;
+  line-height: 1.2rem;
+  font-size: 1.2rem; }
   .btn-outline::-moz-focus-inner {
     padding: 0;
     border: 0; }
@@ -805,13 +908,27 @@ header.navigation {
   .btn-outline:active {
     box-shadow: 0 0 0 1px rgba(200, 1, 49, 0) inset, 0 0 6px rgba(200, 1, 49, 0) inset; }
 
+.fullDevice {
+  min-width: 100%;
+  background-image: url("../img/home/header-bg3.png");
+  background-size: cover;
+  min-height: 28em;
+  width: 100%; }
+
 .device-background {
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), -webkit-linear-gradient(10deg, #0A120D, #162C4C), no-repeat #162C4C scroll;
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), linear-gradient(10deg, #0A120D, #162C4C), no-repeat #162C4C scroll;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("../img/home/header-bg3.png"), -webkit-linear-gradient(10deg, #FFF, #CCC), no-repeat #CCC scroll;
+  background: url("../img/home/header-bg3.png"), linear-gradient(10deg, #FFF, #CCC), no-repeat #CCC scroll;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 28em;
   width: 100%; }
+  .device-background::after {
+    clear: both;
+    content: "";
+    display: table; }
   .device-background .device-text {
     padding: 2em; }
     @media screen and (min-width: 53.75em) {
@@ -968,7 +1085,7 @@ header.navigation {
 
 .parallax-static-content {
   color: #9A9A8A;
-  padding: 4em 0;
+  padding: 0.2rem 0;
   position: relative;
   z-index: 9; }
 
