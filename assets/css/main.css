@@ -1,24 +1,19 @@
 @charset "UTF-8";
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/neat\/grid\/_box-sizing\.scss}line{font-family:\000034}}
 html {
   box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/neat\/grid\/_box-sizing\.scss}line{font-family:\000039}}
 *, *::after, *::before {
   box-sizing: inherit; }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\000033}}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\000039}}
 body {
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\0000313}}
 article,
 aside,
 details,
@@ -34,7 +29,6 @@ section,
 summary {
   display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\0000329}}
 audio,
 canvas,
 progress,
@@ -42,53 +36,42 @@ video {
   display: inline-block;
   vertical-align: baseline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\0000337}}
 audio:not([controls]) {
   display: none;
   height: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\0000342}}
 [hidden],
 template {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\0000347}}
 a {
   background-color: transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\0000351}}
 a:active,
 a:hover {
   outline: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\0000356}}
 abbr[title] {
   border-bottom: 1px dotted; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\0000360}}
 b,
 strong {
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\0000365}}
 dfn {
   font-style: italic; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\0000369}}
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\0000374}}
 mark {
   background: #ff0;
   color: #000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\0000379}}
 small {
   font-size: 80%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\0000383}}
 sub,
 sup {
   font-size: 75%;
@@ -96,37 +79,29 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\0000391}}
 sup {
   top: -0.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\0000395}}
 sub {
   bottom: -0.25em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\0000399}}
 img {
   border: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003103}}
 svg:not(:root) {
   overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003107}}
 figure {
   margin: 1em 40px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003111}}
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003117}}
 pre {
   overflow: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003121}}
 code,
 kbd,
 pre,
@@ -134,7 +109,6 @@ samp {
   font-family: monospace, monospace;
   font-size: 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003129}}
 button,
 input,
 optgroup,
@@ -144,16 +118,13 @@ textarea {
   font: inherit;
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003139}}
 button {
   overflow: visible; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003143}}
 button,
 select {
   text-transform: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003148}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -161,69 +132,56 @@ input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003156}}
 button[disabled],
 html input[disabled] {
   cursor: default; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003161}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003167}}
 input {
   line-height: normal; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003171}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003177}}
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003182}}
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003189}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003194}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003200}}
 legend {
   border: 0;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003205}}
 textarea {
   overflow: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003209}}
 optgroup {
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003213}}
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/_normalize\.scss}line{font-family:\00003218}}
 td,
 th {
   padding: 0; }
@@ -249,89 +207,71 @@ th {
   /* IE9 Compat Modes */
   src: url("fonts/Delm-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Delm-Bold.woff") format("woff"), url("fonts/Delm-Bold.ttf") format("truetype"), url("fonts/Delm-Bold.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_selection-colors\.sass}line{font-family:\000031}}
 ::selection {
   background: #FFF498; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_selection-colors\.sass}line{font-family:\000034}}
 ::-moz-selection {
   background: #FFF498; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_selection-colors\.sass}line{font-family:\000037}}
 img::selection {
   background: transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_selection-colors\.sass}line{font-family:\0000310}}
 img::-moz-selection {
   background: transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_selection-colors\.sass}line{font-family:\0000313}}
 body {
   -webkit-tap-highlight-color: #FFF498; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_links\.sass}line{font-family:\000031}}
 a {
   color: #0074D9;
   text-decoration: none;
   outline: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_links\.sass}line{font-family:\000036}}
   a:hover, a:focus {
     color: #40a6ff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_typography\.sass}line{font-family:\000033}}
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   font-weight: bold;
   font-family: Delm; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_typography\.sass}line{font-family:\000039}}
 .gigantic {
   font-size: 110px;
   line-height: 1.09;
   letter-spacing: -2px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_typography\.sass}line{font-family:\0000314}}
 .huge, h1 {
   font-size: 68px;
   line-height: 1.05;
   letter-spacing: -1px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_typography\.sass}line{font-family:\0000319}}
 .large, h2 {
   font-size: 42px;
   line-height: 1.14; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_typography\.sass}line{font-family:\0000323}}
 .bigger, h3 {
   font-size: 26px;
   line-height: 1.38; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_typography\.sass}line{font-family:\0000327}}
 .big, h4 {
   font-size: 22px;
   line-height: 1.38; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_typography\.sass}line{font-family:\0000331}}
 .small, small {
   font-size: 10px;
   line-height: 1.2; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_typography\.sass}line{font-family:\0000338}}
 p {
   font-family: Lato;
   margin: 0 0 20px 0;
   font-weight: 300; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_typography\.sass}line{font-family:\0000343}}
 em {
   font-style: italic; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_typography\.sass}line{font-family:\0000346}}
 strong {
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/2-basics\/_typography\.sass}line{font-family:\0000349}}
 hr {
   border: solid #ddd;
   border-width: 1px 0 0;
@@ -339,41 +279,103 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\000031}}
+.page-wrap {
+  display: flex; }
+
+.page-sections {
+  flex: 1; }
+  .page-sections section {
+    padding: 56px 0; }
+    .page-sections section h1 {
+      font-family: Delm-thin;
+      font-weight: lighter; }
+    .page-sections section .lead {
+      font-size: 1.3em; }
+  .page-sections .flex {
+    display: flex;
+    flex-direction: rows; }
+  .page-sections .flex--center {
+    justify-content: center; }
+  .page-sections .flex--space-around {
+    justify-content: space-around; }
+  .page-sections .order-first {
+    order: -1; }
+  .page-sections .order-first {
+    order: 2; }
+
+.col-1 {
+  width: 320px;
+  padding: 0 10px;
+  box-sizing: border-box; }
+
+.push-right {
+  margin-left: 330px; }
+
+.col-2 {
+  max-width: 640px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  width: 100%; }
+
+.col-3 {
+  width: 203px;
+  padding: 0 10px;
+  box-sizing: border-box; }
+
+.col-50 {
+  width: 50%; }
+
+@media (max-width: 640px) {
+  .page-sections .flex {
+    display: block; }
+
+  .col-1 {
+    width: 100%; }
+
+  .col-50 {
+    width: auto; }
+
+  .push-right {
+    margin-left: 0; } }
+.lead {
+  line-height: 1.1;
+  font-size: 36px; }
+  .lead.outdented {
+    text-indent: -0.8em; }
+
+@media (max-width: 640px) {
+  .lead {
+    text-align: center; }
+    .lead.outdented {
+      text-indent: 0; } }
 header.navigation {
   background-color: #333;
   border-bottom: 1px solid #1a1a1a;
   min-height: 60px;
   width: 100%;
   z-index: 999; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\0000328}}
   header.navigation .navigation-wrapper {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     z-index: 9999; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000320}}
     header.navigation .navigation-wrapper::after {
       clear: both;
       content: "";
       display: table; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000320}}
     header.navigation .navigation-wrapper::after {
       clear: both;
       content: "";
       display: table; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\0000335}}
   header.navigation .logo {
     float: left;
     max-height: 60px;
     padding-left: 1em;
     padding-right: 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\0000341}}
     header.navigation .logo img {
       max-height: 60px;
       padding: 0.8em 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\0000349}}
   header.navigation .navigation-menu-button {
     color: rgba(255, 255, 255, 0.7);
     display: block;
@@ -384,22 +386,17 @@ header.navigation {
     text-decoration: none;
     text-transform: uppercase; }
     @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\0000349}}
       header.navigation .navigation-menu-button {
         display: none; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\0000363}}
     header.navigation .navigation-menu-button:focus, header.navigation .navigation-menu-button:hover {
       color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\0000371}}
   header.navigation nav {
     float: none;
     min-height: 60px;
     z-index: 9999999; }
     @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\0000371}}
       header.navigation nav {
         float: right; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\0000381}}
   header.navigation ul.navigation-menu {
     clear: both;
     display: none;
@@ -408,16 +405,13 @@ header.navigation {
     padding: 0;
     width: 100%;
     z-index: 9999; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\0000390}}
     header.navigation ul.navigation-menu.show {
       display: block; }
     @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\0000381}}
       header.navigation ul.navigation-menu {
         display: inline;
         margin: 0;
         padding: 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003103}}
   header.navigation ul li.nav-link {
     background: #333;
     display: block;
@@ -430,48 +424,37 @@ header.navigation {
     font-family: Delm-thin;
     letter-spacing: 0.09rem; }
     @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003103}}
       header.navigation ul li.nav-link {
         background: transparent;
         display: inline;
         line-height: 60px;
         text-decoration: none;
         width: auto; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003123}}
     header.navigation ul li.nav-link a {
       color: rgba(255, 255, 255, 0.7);
       display: inline-block;
       text-decoration: none; }
       @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003123}}
         header.navigation ul li.nav-link a {
           padding-right: 1em; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003132}}
       header.navigation ul li.nav-link a:focus, header.navigation ul li.nav-link a:hover {
         color: white;
         font-family: Delm; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003140}}
   header.navigation .active-nav-item a {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     padding-bottom: 3px;
     font-family: Delm; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003148}}
   header.navigation li.more.nav-link {
     padding-right: 0; }
     @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003148}}
       header.navigation li.more.nav-link {
         padding-right: 1em; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003155}}
     header.navigation li.more.nav-link > ul > li:first-child a {
       padding-top: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003159}}
     header.navigation li.more.nav-link a {
       margin-right: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003163}}
     header.navigation li.more.nav-link > a {
       padding-right: 0.6em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003167}}
     header.navigation li.more.nav-link > a::after {
       position: absolute;
       top: auto;
@@ -480,111 +463,88 @@ header.navigation {
       left: auto;
       color: rgba(255, 255, 255, 0.7);
       content: "\25BE"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003174}}
   header.navigation li.more {
     overflow: visible;
     padding-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003178}}
     header.navigation li.more a {
       padding-right: 0.8em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003182}}
     header.navigation li.more > a {
       padding-right: 1.6em;
       position: relative; }
       @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003182}}
         header.navigation li.more > a {
           margin-right: 1em; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003190}}
       header.navigation li.more > a::after {
         content: "›";
         font-size: 1.2em;
         position: absolute;
         right: 0.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003198}}
     header.navigation li.more:focus > .submenu, header.navigation li.more:hover > .submenu {
       display: block; }
     @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003174}}
       header.navigation li.more {
         padding-right: 0.8em;
         position: relative; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003209}}
   header.navigation ul.submenu {
     display: none;
     padding-left: 0; }
     @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003209}}
       header.navigation ul.submenu {
         left: -1em;
         position: absolute;
         top: 1.5em; } }
     @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003219}}
       header.navigation ul.submenu .submenu.fly-out-right {
         left: 11.8em;
         top: 0; } }
     @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003226}}
       header.navigation ul.submenu .submenu.fly-out-left {
         left: -11.8em;
         top: 0; } }
     @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003233}}
       header.navigation ul.submenu .submenu {
         left: 11.8em;
         top: 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003240}}
     header.navigation ul.submenu li {
       display: block;
       padding-right: 0; }
       @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003240}}
         header.navigation ul.submenu li {
           line-height: 46.1538461538px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003247}}
           header.navigation ul.submenu li:first-child > a {
             border-top-left-radius: 3px;
             border-top-right-radius: 3px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003252}}
           header.navigation ul.submenu li:last-child > a {
             border-bottom-left-radius: 3px;
             border-bottom-right-radius: 3px;
             padding-bottom: 0.7em; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003259}}
       header.navigation ul.submenu li a {
         background-color: #2b2b2b;
         display: inline-block;
         text-align: right;
         width: 100%; }
         @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003259}}
           header.navigation ul.submenu li a {
             background-color: #333;
             padding-left: 1em;
             text-align: left;
             width: 12em; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003277}}
   header.navigation .navigation-tools {
     background: #505050;
     clear: both;
     display: block;
     height: 60px; }
     @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003277}}
       header.navigation .navigation-tools {
         background: transparent;
         clear: none;
         float: right; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003292}}
   header.navigation .search-bar {
     float: left;
     padding: 0.85em 0.85em 0.7em 0.6em;
     width: 60%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003301}}
     header.navigation .search-bar form {
       position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003304}}
       header.navigation .search-bar form input[type=search] {
         background: #404040;
         border: 1px solid #262626;
@@ -597,10 +557,8 @@ header.navigation {
         padding: 0.5em 0.8em;
         width: 100%; }
         @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003304}}
           header.navigation .search-bar form input[type=search] {
             width: 100%; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003321}}
       header.navigation .search-bar form button[type=submit] {
         background: #404040;
         border: 0;
@@ -611,36 +569,30 @@ header.navigation {
         position: absolute;
         right: 0.3em;
         top: 0.3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003332}}
         header.navigation .search-bar form button[type=submit] img {
           height: 12px;
           opacity: 0.7;
           padding: 1px; }
     @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003292}}
       header.navigation .search-bar {
         display: inline-block;
         position: relative;
         width: 16em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_navigation\.scss}line{font-family:\00003345}}
         header.navigation .search-bar input {
           box-sizing: border-box;
           display: block; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_header-home\.scss}line{font-family:\000031}}
 .hero {
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), -webkit-linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
+  background: url("http://localhost:5757/assets/img/home/header-bg.jpg"), -webkit-linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
+  background: url("http://localhost:5757/assets/img/home/header-bg.jpg"), linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
   background-color: #324766;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_header-home\.scss}line{font-family:\0000318}}
   .hero .hero-logo img {
     height: 4em;
     margin-bottom: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_header-home\.scss}line{font-family:\0000323}}
   .hero .hero-inner {
     max-width: 100%;
     margin-left: auto;
@@ -648,20 +600,16 @@ header.navigation {
     margin: auto;
     padding: 3.5em;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000320}}
     .hero .hero-inner::after {
       clear: both;
       content: "";
       display: table; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000320}}
     .hero .hero-inner::after {
       clear: both;
       content: "";
       display: table; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_header-home\.scss}line{font-family:\0000330}}
     .hero .hero-inner .hero-copy {
       text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_header-home\.scss}line{font-family:\0000333}}
       .hero .hero-inner .hero-copy h1 {
         color: white;
         font-size: 1.6em;
@@ -671,14 +619,12 @@ header.navigation {
         font-family: Delm-thin;
         font-weight: normal; }
         @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_header-home\.scss}line{font-family:\0000333}}
           .hero .hero-inner .hero-copy h1 {
             font-size: 2.2em;
             max-width: 70%;
             line-height: 1.2em;
             font-family: Delm-thin;
             font-weight: normal; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_header-home\.scss}line{font-family:\0000351}}
       .hero .hero-inner .hero-copy p {
         color: white;
         line-height: 1.4em;
@@ -687,31 +633,25 @@ header.navigation {
         font-weight: 300;
         letter-spacing: 0.05rem; }
         @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_header-home\.scss}line{font-family:\0000351}}
           .hero .hero-inner .hero-copy p {
             font-size: 1.1em;
             max-width: 60%; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_grid-home\.scss}line{font-family:\000031}}
 .da-grid {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000320}}
   .da-grid::after {
     clear: both;
     content: "";
     display: table; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_grid-home\.scss}line{font-family:\000039}}
 .grid-items-lines {
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000320}}
   .grid-items-lines::after {
     clear: both;
     content: "";
     display: table; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_grid-home\.scss}line{font-family:\0000327}}
   .grid-items-lines .grid-item {
     background: white;
     border-bottom: 1px solid rgba(51, 51, 51, 0.2);
@@ -726,26 +666,21 @@ header.navigation {
     transition: all 0.2s ease-in-out;
     width: 100%; }
     @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_grid-home\.scss}line{font-family:\0000327}}
       .grid-items-lines .grid-item {
         width: 33.3333333333%; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_grid-home\.scss}line{font-family:\0000345}}
     .grid-items-lines .grid-item:focus, .grid-items-lines .grid-item:hover {
       background: rgba(51, 51, 51, 0.05);
       cursor: default; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_grid-home\.scss}line{font-family:\0000352}}
   .grid-items-lines .grid-item img {
     display: block;
     height: 2.5em;
     margin-bottom: 1.2em;
     opacity: 0.2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_grid-home\.scss}line{font-family:\0000359}}
   .grid-items-lines .grid-item h1 {
     color: #333;
     font-size: 1.5rem;
     letter-spacing: 0.05rem;
     margin-bottom: 0.4em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_grid-home\.scss}line{font-family:\0000366}}
   .grid-items-lines .grid-item p {
     color: rgba(51, 51, 51, 0.6);
     line-height: 1.5em;
@@ -753,21 +688,17 @@ header.navigation {
     font-family: Lato;
     font-weight: 400; }
   @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_grid-home\.scss}line{font-family:\0000379}}
     .grid-items-lines .grid-item-big {
       width: 66.6666666667%; } }
   @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_grid-home\.scss}line{font-family:\0000383}}
     .grid-items-lines .grid-item-big p {
       max-width: 60%; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_grid-home\.scss}line{font-family:\0000391}}
   .grid-items-lines .bottom-cover {
     background: white;
     bottom: 0;
     height: 3px;
     position: absolute;
     width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_grid-home\.scss}line{font-family:\0000399}}
   .grid-items-lines .right-cover {
     background: white;
     height: 100%;
@@ -775,16 +706,13 @@ header.navigation {
     right: 0;
     width: 4px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_latest-home\.scss}line{font-family:\000031}}
 .side-image {
   background: #F9F9F9; }
   @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_latest-home\.scss}line{font-family:\000031}}
     .side-image {
       display: table;
       width: 100%;
       table-layout: fixed; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_latest-home\.scss}line{font-family:\0000318}}
   .side-image .images-wrapper {
     background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), -webkit-linear-gradient(#B5EBEB, #5DAC5D), no-repeat #B5EBEB scroll;
     background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), linear-gradient(#B5EBEB, #5DAC5D), no-repeat #B5EBEB scroll;
@@ -795,30 +723,25 @@ header.navigation {
     min-height: 12em;
     padding: 3em; }
     @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_latest-home\.scss}line{font-family:\0000318}}
       .side-image .images-wrapper {
         display: table-cell;
         width: 33.3333333333%;
         background-position: bottom;
         background-size: cover;
         border-right: 1px solid rgba(38, 74, 38, 0.2); } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_latest-home\.scss}line{font-family:\0000335}}
   .side-image .side-image-content {
     display: table-cell;
     width: 100%;
     padding: 1em 1em 4em 1em; }
     @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_latest-home\.scss}line{font-family:\0000335}}
       .side-image .side-image-content {
         display: table-cell;
         width: 66.6666666667%;
         padding: 4em 4em 8em 4em; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_latest-home\.scss}line{font-family:\0000344}}
     .side-image .side-image-content h1 {
       margin-bottom: 0.9em;
       font-size: 1.9em;
       letter-spacing: 0.05em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_latest-home\.scss}line{font-family:\0000351}}
     .side-image .side-image-content h4 {
       background: #BBB;
       color: white;
@@ -829,13 +752,11 @@ header.navigation {
       text-transform: uppercase;
       font-family: Delm;
       letter-spacing: 0.09rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_latest-home\.scss}line{font-family:\0000363}}
     .side-image .side-image-content p {
       color: #333;
       line-height: 1.5em;
       margin-bottom: 3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_latest-home\.scss}line{font-family:\00003188}}
 .btn-outline {
   font-size: 100%;
   display: inline-block;
@@ -868,11 +789,9 @@ header.navigation {
   -o-transition: 0.1s linear box-shadow;
   transition: 0.1s linear box-shadow;
   font-family: Delm-bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_latest-home\.scss}line{font-family:\00003131}}
   .btn-outline::-moz-focus-inner {
     padding: 0;
     border: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_latest-home\.scss}line{font-family:\00003136}}
   .btn-outline:hover, .btn-outline:focus {
     color: white;
     background-color: #FE3162;
@@ -881,14 +800,11 @@ header.navigation {
     -ms-transition: all .25s linear;
     -o-transition: all .25s linear;
     transition: all .25s linear; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_latest-home\.scss}line{font-family:\00003164}}
   .btn-outline:focus {
     outline: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_latest-home\.scss}line{font-family:\00003167}}
   .btn-outline:active {
     box-shadow: 0 0 0 1px rgba(200, 1, 49, 0) inset, 0 0 6px rgba(200, 1, 49, 0) inset; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_screen-home\.scss}line{font-family:\000031}}
 .device-background {
   background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), -webkit-linear-gradient(10deg, #0A120D, #162C4C), no-repeat #162C4C scroll;
   background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), linear-gradient(10deg, #0A120D, #162C4C), no-repeat #162C4C scroll;
@@ -896,33 +812,27 @@ header.navigation {
   background-size: cover;
   min-height: 28em;
   width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_screen-home\.scss}line{font-family:\0000324}}
   .device-background .device-text {
     padding: 2em; }
     @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_screen-home\.scss}line{font-family:\0000324}}
       .device-background .device-text {
         float: left;
         max-width: 50%;
         padding: 4em; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_screen-home\.scss}line{font-family:\0000333}}
     .device-background .device-text h4 {
       border-bottom: 1px solid rgba(255, 255, 255, 0.3);
       color: white;
       font-size: 1.5em;
       margin: 0 0 0.5em 0;
       padding-bottom: 0.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_screen-home\.scss}line{font-family:\0000341}}
     .device-background .device-text p {
       color: white;
       line-height: 1.5em;
       margin-bottom: 1.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_screen-home\.scss}line{font-family:\0000348}}
   .device-background .device {
     display: none;
     position: relative; }
     @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_screen-home\.scss}line{font-family:\0000348}}
       .device-background .device {
         background: #1a1a1a;
         border-radius: 2em;
@@ -935,7 +845,6 @@ header.navigation {
         transform: perspective(800px) translateX(0) translateY(-100px) translateZ(50px) rotateX(0) rotateY(-20deg) rotateZ(0);
         width: 14.8em;
         z-index: 99999; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_screen-home\.scss}line{font-family:\0000378}}
         .device-background .device .screen {
           height: 25em;
           width: 14em;
@@ -945,7 +854,6 @@ header.navigation {
           box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.5);
           margin: auto; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_footer\.scss}line{font-family:\000031}}
 .footer {
   background: linear-gradient(229deg, #fe3162, #ff5928, #8b0084, #fe0cf1, #8e35fe, #6d7fef, #799802);
   background-size: 1400% 1400%;
@@ -983,14 +891,11 @@ header.navigation {
     background-position: 100% 10%; }
   100% {
     background-position: 0% 91%; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_footer\.scss}line{font-family:\0000342}}
   .footer .footer-logo {
     margin-bottom: 2em;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_footer\.scss}line{font-family:\0000346}}
     .footer .footer-logo img {
       height: 3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_footer\.scss}line{font-family:\0000351}}
   .footer .footer-links {
     display: -webkit-box;
     display: -moz-box;
@@ -1016,7 +921,6 @@ header.navigation {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-bottom: 1.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_footer\.scss}line{font-family:\0000358}}
   .footer ul {
     -webkit-flex-basis: 13em;
     -moz-flex-basis: 13em;
@@ -1028,31 +932,25 @@ header.navigation {
     -ms-flex-negative: 0;
     margin-bottom: 3em;
     padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_footer\.scss}line{font-family:\0000365}}
   .footer li {
     line-height: 1.8em;
     list-style: none;
     text-align: center;
     font-family: Lato; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_footer\.scss}line{font-family:\0000372}}
   .footer li a {
     color: rgba(255, 255, 255, 0.4);
     text-decoration: none;
     font-size: 0.9em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_footer\.scss}line{font-family:\0000377}}
     .footer li a:focus, .footer li a:hover {
       color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_footer\.scss}line{font-family:\0000383}}
   .footer li h3 {
     color: white;
     font-size: 1.3em;
     margin-bottom: 0.4em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_footer\.scss}line{font-family:\0000389}}
   .footer hr {
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin: 0 auto 1.5em;
     width: 12em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_footer\.scss}line{font-family:\0000395}}
   .footer p {
     color: rgba(255, 255, 255, 0.4);
     font-size: 0.9em;
@@ -1061,7 +959,6 @@ header.navigation {
     max-width: 35em;
     text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_home-parallax\.scss}line{font-family:\000034}}
 .parallax-window {
   max-height: 30em;
   overflow: hidden;
@@ -1069,55 +966,46 @@ header.navigation {
   text-align: center;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_home-parallax\.scss}line{font-family:\0000312}}
 .parallax-static-content {
   color: #9A9A8A;
-  padding: 8em 0;
+  padding: 4em 0;
   position: relative;
   z-index: 9; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_home-parallax\.scss}line{font-family:\0000319}}
 .parallax-background {
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png") repeat;
+  background: url("http://localhost:5757/assets/img/home/header-bg3.png") repeat;
   background-position: top;
   background-size: cover;
-  background-color: beige;
+  background-color: #FE3162;
   height: 60em;
   left: 0;
   position: absolute;
   top: -10em;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_terms\.scss}line{font-family:\000031}}
 .scroll-on-page {
   margin: 3em 0;
   display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_terms\.scss}line{font-family:\0000312}}
   .scroll-on-page a {
     color: #FE3162;
     text-decoration: none;
     font-family: Lato; }
   @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_terms\.scss}line{font-family:\0000318}}
     .scroll-on-page aside {
       float: left;
       display: block;
       margin-right: 2.3576515979%;
       width: 31.7615656014%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
       .scroll-on-page aside:last-child {
         margin-right: 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_terms\.scss}line{font-family:\0000324}}
   .scroll-on-page .scroll-on-page-link {
     border-bottom: 1px solid rgba(71, 125, 202, 0.2);
     display: block;
     margin-right: 1.5em;
     outline: none;
     padding: 0.75em 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_terms\.scss}line{font-family:\0000331}}
     .scroll-on-page .scroll-on-page-link:last-child {
       margin-bottom: 1.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_terms\.scss}line{font-family:\0000337}}
   .scroll-on-page article h5 {
     margin: 0 0 0.8em 0;
     padding-top: 1.2em;
@@ -1127,41 +1015,223 @@ header.navigation {
     text-transform: uppercase;
     letter-spacing: 0.08rem;
     color: #ccc; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_terms\.scss}line{font-family:\0000347}}
   .scroll-on-page article h4 {
     margin: 0 0 0.5em 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_terms\.scss}line{font-family:\0000351}}
   .scroll-on-page article ul {
     list-style: square outside none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_terms\.scss}line{font-family:\0000354}}
   .scroll-on-page article li {
     font: 300 1rem/1.5 Lato;
     padding-bottom: 1rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_terms\.scss}line{font-family:\0000358}}
   .scroll-on-page article li:last-child {
     padding-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_terms\.scss}line{font-family:\0000362}}
   .scroll-on-page article p {
     color: #333;
     line-height: 1.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_terms\.scss}line{font-family:\0000367}}
   .scroll-on-page article section p:last-of-type {
     margin-bottom: 2.2em; }
   @media screen and (min-width: 53.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/3-modules\/_terms\.scss}line{font-family:\0000336}}
     .scroll-on-page article {
       float: left;
       display: block;
       margin-right: 2.3576515979%;
       width: 65.8807828007%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/1-tools\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
       .scroll-on-page article:last-child {
         margin-right: 0; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/4-pages\/_home\.sass}line{font-family:\000031}}
+section.header {
+  text-align: center;
+  background-color: silver;
+  background-image: url(/assets/img/blox/cr8-blox-header.jpg);
+  background-size: cover;
+  background-position: center top;
+  margin: 0 auto;
+  text-align: center;
+  height: auto;
+  overflow-y: hidden; }
+
+h1.blox {
+  font-size: 4rem;
+  line-height: 0rem;
+  font-family: Delm; }
+
+p.blox {
+  margin-bottom: 2.2rem;
+  font-weight: 300;
+  line-height: 1.3em; }
+  p.blox span {
+    font-weight: 400; }
+
+.btn-large {
+  font-size: 100%;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: baseline;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  *font-size: 90%;
+  *overflow: visible;
+  padding: 0.5em 1.5em 0.3em;
+  color: #ddd;
+  color: #dddddd;
+  *color: #ddd;
+  border: 1px solid #ddd;
+  background-color: rgba(221, 221, 221, 0);
+  text-decoration: none;
+  border-radius: 1px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition: 0.1s linear -webkit-box-shadow;
+  -moz-transition: 0.1s linear -moz-box-shadow;
+  -ms-transition: 0.1s linear box-shadow;
+  -o-transition: 0.1s linear box-shadow;
+  transition: 0.1s linear box-shadow;
+  font-family: Delm-bold;
+  font-size: 1.5rem; }
+  .btn-large::-moz-focus-inner {
+    padding: 0;
+    border: 0; }
+  .btn-large:hover, .btn-large:focus {
+    color: white;
+    background-color: #ddd;
+    -webkit-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -ms-transition: all .25s linear;
+    -o-transition: all .25s linear;
+    transition: all .25s linear; }
+  .btn-large:focus {
+    outline: 0; }
+  .btn-large:active {
+    box-shadow: 0 0 0 1px rgba(170, 170, 170, 0) inset, 0 0 6px rgba(170, 170, 170, 0) inset; }
+  .btn-large:hover {
+    color: #3e3e3e; }
+
+section.intro {
+  text-align: center;
+  background-color: silver; }
+
+@media (max-width: 640px) {
+  .col-3 {
+    width: 100%; } }
+section.header {
+  text-align: center;
+  background-color: silver; }
+
+@media (max-width: 640px) {
+  .col-3 {
+    width: 100%; } }
+section.who {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+  background-color: yellow; }
+  section.who .col-2 h3 {
+    text-transform: uppercase; }
+  section.who .col-2 img {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: baseline; }
+
+section.editions {
+  padding: 0; }
+  section.editions .flex--space-around {
+    display: flex;
+    flex-direction: rows; }
+  section.editions .pink {
+    background-color: #ea4c89; }
+  section.editions .blue {
+    background-color: #1769ff; }
+  section.editions .col-1 {
+    padding: 56px 0; }
+    section.editions .col-1 h3 {
+      font-size: 1.5em;
+      text-transform: uppercase;
+      letter-spacing: 0.05rem; }
+
+@media (max-width: 800px) {
+  .editions .drop {
+    display: block;
+    text-align: center;
+    width: auto;
+    margin: 0 auto; }
+    .editions .drop .full {
+      width: 100%;
+      padding-right: 32px;
+      padding-left: 32px; } }
+.marketing {
+  padding: 56px 0;
+  background-color: silver; }
+  .marketing section {
+    padding: 0;
+    text-align: left; }
+    .marketing section .col-2 .marketing {
+      font-size: 1.2em; }
+
+.developer {
+  padding: 56px 0;
+  background-color: pink; }
+  .developer section {
+    padding: 0;
+    text-align: left; }
+    .developer section .col-2 .developer {
+      font-size: 1.2em; }
+
+section.cta#video-bg {
+  padding: 0;
+  margin: 0;
+  background-image: url(img/BG-video.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  margin: 0 auto;
+  text-align: center;
+  height: auto;
+  overflow-y: hidden;
+  color: white; }
+
+#video-landing {
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  background-color: rgba(62, 62, 62, 0.9);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+#video-landing video {
+  position: absolute;
+  min-height: 100%;
+  width: 100%;
+  top: -200px;
+  background-size: cover;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -100; }
+
+.vid-info {
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center; }
+  .vid-info h3 {
+    line-height: 1rem;
+    text-transform: uppercase;
+    color: #FE3162; }
+  .vid-info p {
+    color: white;
+    line-height: 1.7rem; }
+
 body {
   overflow-x: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/davearmstrong\/Dropbox\/MAMP\/cre8code\/assets\/css\/4-pages\/_home\.sass}line{font-family:\000035}}
 .page-home {
   text-align: center; }

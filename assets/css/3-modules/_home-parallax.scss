@@ -11,16 +11,16 @@ $parallax-background-height: $parallax-window-height * 2;
 
 .parallax-static-content {
   color: #9A9A8A;
-  padding: 8em 0;
+  padding: 4em 0;
   position: relative;
   z-index: 9;
 }
 
 .parallax-background {
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png") repeat;
+  background: url("http://localhost:5757/assets/img/home/header-bg3.png") repeat;
   background-position: top;
   background-size: cover;
-  background-color: beige;
+  background-color: $c8pink;
   height: $parallax-background-height;
   left: 0;
   position: absolute;

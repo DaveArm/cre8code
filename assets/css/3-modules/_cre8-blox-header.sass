@@ -1,0 +1,39 @@
+section.header
+  text-align: center
+  background-color: silver
+
+
+  background-image: url(/assets/img/blox/cr8-blox-header.jpg)
+  background-size: cover
+  background-position: center top
+  margin: 0 auto
+  text-align: center
+  height: auto
+  overflow-y: hidden
+
+h1.blox
+  font-size: 4rem
+  line-height: 0rem
+  font-family: Delm
+
+p.blox
+  margin-bottom: 2.2rem
+  font-weight: 300
+  line-height: 1.3em
+
+  span
+    font-weight: 400
+
+
+
+// BUTTON
+
+
+.btn-large
+  @include pure-button-size(2g)
+  @include pure-button($silver, $silver, 1, 0, 1px solid $silver)
+  font-family: Delm-bold
+  font-size: 1.5rem
+
+  &:hover
+    color: $c8dark

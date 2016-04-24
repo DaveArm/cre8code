@@ -57,3 +57,11 @@ assets/video/video.mp4
 assets/video/video.jpg
 
 index.html
+
+*.mov
+
+*.mp4
+
+*.codekit
+
+assets/img/placeholder/wireframe.png

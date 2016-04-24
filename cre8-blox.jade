@@ -1,0 +1,20 @@
+extends ./assets/jadefiles/docwrapper.jade
+
+//- Override any config settings by appending to the config block
+append ./assets/jadefiles/config.jade
+	- var PageTitle = 'Cre8 Blox | HTML drag and drop builder - Email edition '
+	- var MetaDesc = 'Terms and conditons for both on and off line purpose. Our terms are set out to line out what you can expect form Cre8 and what Cre8 should expect from you the user or customer.'
+	- var jQuery = true
+
+block content
+	//- Variable content blocks
+	include ./assets/jadefiles/navigation.jade
+	include ./assets/jadefiles/cre8-blox-header.jade
+	include ./assets/jadefiles/cre8-blox-intro.jade
+	include ./assets/jadefiles/cre8-blox-what.jade
+	include ./assets/jadefiles/cre8-blox-who.jade
+	include ./assets/jadefiles/cre8-blox-editions.jade
+	include ./assets/jadefiles/cre8-blox-marketing.jade
+	include ./assets/jadefiles/cre8-blox-cta.jade
+	include ./assets/jadefiles/footer.jade
+	
